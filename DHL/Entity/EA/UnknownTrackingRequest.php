@@ -70,7 +70,7 @@ class UnknownTrackingRequest extends Base
         'ShipperReference' => array(
             'type' => 'string',
             'required' => false,
-            'subobject' => false,
+            'subobject' => true,
         ), 
         'ShipmentDate' => array(
             'type' => 'ShipmentDate',

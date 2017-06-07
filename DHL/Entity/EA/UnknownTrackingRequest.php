@@ -83,6 +83,11 @@ class UnknownTrackingRequest extends Base
             'subobject' => false,
             'comment' => 'ISO country codes',
             'length' => '2',
-        ), 
+        ),
+        'TrackBy' => array(
+            'type' => 'string',
+            'required' => false,
+            'subobject' => false
+        )
     );
 }

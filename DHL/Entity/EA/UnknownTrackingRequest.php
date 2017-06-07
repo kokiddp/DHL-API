@@ -68,7 +68,7 @@ class UnknownTrackingRequest extends Base
             'minInclusive' => '100000000',
         ), 
         'ShipperReference' => array(
-            'type' => 'string',
+            'type' => 'ShipperReference',
             'required' => false,
             'subobject' => true,
         ), 

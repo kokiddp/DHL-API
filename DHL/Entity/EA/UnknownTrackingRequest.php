@@ -68,9 +68,9 @@ class UnknownTrackingRequest extends Base
             'minInclusive' => '100000000',
         ), 
         'ShipperReference' => array(
-            'type' => 'string',
+            'type' => 'ShipperReference',
             'required' => false,
-            'subobject' => false,
+            'subobject' => true,
         ), 
         'ShipmentDate' => array(
             'type' => 'ShipmentDate',
@@ -83,6 +83,11 @@ class UnknownTrackingRequest extends Base
             'subobject' => false,
             'comment' => 'ISO country codes',
             'length' => '2',
-        ), 
+        ),
+        'TrackBy' => array(
+            'type' => 'string',
+            'required' => false,
+            'subobject' => false
+        )
     );
 }

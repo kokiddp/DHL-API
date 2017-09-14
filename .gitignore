@@ -68,5 +68,5 @@ composer.phar
 composer.lock
 
 #dhl api configs
-/conf/config.php
+conf/config.php
 

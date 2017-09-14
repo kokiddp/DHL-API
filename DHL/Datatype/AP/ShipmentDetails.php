@@ -116,7 +116,7 @@ class ShipmentDetails extends Base
             'type' => 'ShipmentContents',
             'required' => false,
             'subobject' => false,
-            'comment' => 'Shipment contents description',
+            'comment' => 'Base contents description',
             'maxLength' => '90',
         ), 
         'DoorTo' => array(
@@ -131,7 +131,7 @@ class ShipmentDetails extends Base
             'type' => 'DimensionUnit',
             'required' => false,
             'subobject' => false,
-            'comment' => 'Dimension Unit I (inches)',
+            'comment' => 'Dimensions Unit I (inches)',
             'length' => '1',
             'enumeration' => 'C,I',
         ), 

@@ -331,6 +331,11 @@ class ShipmentResponse extends Base
             'comment' => 'CustData',
             'minLength' => '1',
             'maxLength' => '100',
-        ), 
+        ),
+        'Label' => array(
+            'type' => 'Label',
+            'required' => false,
+            'subobject' => true,
+        ),
     );
 }

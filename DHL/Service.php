@@ -57,7 +57,7 @@ class Service
      *
      * @param ShipmentRequest Request to send
      *   
-     * @return ShipmentResponse The Shipment response object upon success, false otherwise
+     * @return ShipmentResponse The Base response object upon success, false otherwise
      */
     public function sendShipmentRequest(ShipmentRequest $request)
     {

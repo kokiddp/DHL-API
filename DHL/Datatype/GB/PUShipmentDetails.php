@@ -117,7 +117,7 @@ class PUShipmentDetails extends Base
             'type' => 'DimensionUnit',
             'required' => false,
             'subobject' => false,
-            'comment' => 'Dimension Unit I (inches), C(Centremetres)',
+            'comment' => 'Dimensions Unit I (inches), C(Centremetres)',
             'Length' => '1',
             'enumeration' => 'C,I',
         ),

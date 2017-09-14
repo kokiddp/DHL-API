@@ -52,7 +52,7 @@ class Reference extends Base
             'type' => 'ReferenceType',
             'required' => false,
             'subobject' => false,
-            'comment' => 'Shipment reference type',
+            'comment' => 'Base reference type',
             'length' => '2',
         ), 
     );

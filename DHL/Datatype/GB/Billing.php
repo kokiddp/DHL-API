@@ -52,7 +52,7 @@ class Billing extends Base
             'type' => 'ShipmentPaymentType',
             'required' => false,
             'subobject' => false,
-            'comment' => 'Shipment payment type (S:Shipper)',
+            'comment' => 'Base payment type (S:Shipper)',
             'length' => '1',
             'enumeration' => 'S,R,T',
         ), 

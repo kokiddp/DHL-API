@@ -15,7 +15,7 @@
  */
 
 /**
- * File:        Shipment.php
+ * File:        Base
  * Project:     DHL API
  *
  * @author      Al-Fallouji Bashar
@@ -26,7 +26,7 @@ namespace DHL\Datatype\AP;
 use DHL\Datatype\Base;
 
 /**
- * Shipment Request model for DHL API
+ * Base Request model for DHL API
  */
 class Shipment extends Base
 {

@@ -236,7 +236,7 @@ abstract class Base extends BaseDataType
         $xml = simplexml_load_string(str_replace('req:', '', utf8_encode($xml)));
         if ($xml->Response->Status && (string) $xml->Response->Status->Condition->ConditionCode != '')
         {
-            $errorMsg = ((string) $xml->AWBInfo->Status->Condition->ConditionCode) . ' : ' . ((string) $xml->AWBInfo->Status->Condition->ConditionData);
+            $errorMsg = ((string) $xml->Response->Status->Condition->ConditionCode) . ' : ' . ((string) $xml->Response->Status->Condition->ConditionData);
             throw new \Exception('Error returned from DHL webservice : ' . $errorMsg);
         }
 

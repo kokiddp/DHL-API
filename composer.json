@@ -1,5 +1,5 @@
 {
-  "name": "MoroAlberto/dhl_api",
+  "name": "kokiddp/dhl_api",
   "description": "PHP library to communicate with the DHL XML Services.",
   "require": {
     "php": ">=5.3.0"
@@ -18,6 +18,10 @@
     {
       "name": "David Fernández",
       "email": "david.fernandez@sngular.team"
+    },
+    {
+      "name": "Gabriele Coquillard",
+      "email": "gabriele.coquillard@gmail.com"
     }
   ]
 }

@@ -4,13 +4,17 @@
 
 Al-Fallouji Bashar 
     - bashar@alfallouji.com
+David Fernández
+    - david.fernandez@sngular.team
+Gabriele Coquillard
+    - gabriele.coquillard@gmail.com
 
     
 ## Documentation and download
 
 
 Latest version is available on github at :
-    - http://github.com/alfallouji/DHL-API/
+    - http://github.com/kokiddp/DHL-API/
 
 
 ## License
@@ -47,7 +51,7 @@ You can use composer to use this library.
 ```php
 {
     "require": {
-		"alfallouji/dhl_api": "*"
+		"kokiddp/dhl_api": "*"
     }
 }
 ```
